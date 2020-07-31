@@ -7,4 +7,4 @@ Use any UserId and for password use:
  A session is established after a successful login.
  Each page is then checked for an established session before opening. 
  
-
+foobar
