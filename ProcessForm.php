@@ -78,7 +78,7 @@ if (! empty($_POST['name']) and ! empty($_POST['password'])) {
             echo "\t</tr>\n";
 
             // remember rank in session for DB delete permission
-            $_SESSION['rank'] = $line['rank'];
+            $_SESSION['rank'] = $line['position'];
         }
         echo "</table>\n";
         echo "<br><br>";
