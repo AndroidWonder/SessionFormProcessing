@@ -1,0 +1,9 @@
+This example is not susceptable to a SQL Injection because a prepared statement is being used.
+
+Use any UserId and for password use:
+    1' or '1' = '1
+ The result will be that no records are printed.
+ 
+ A session is established after a successful login.
+ Each page is then checked for an established session before opening. 
+ 
